@@ -1,0 +1,11 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "country_annual.csv": "ec182e9e819362d265a6fe9b05d76ac88fb6a12f1f18c2a0b46e4ecc3478c7dc",
+    "facility_annual.csv": "acc81255c2e5b197664bbae98fad07d4e37b163395d809e460df013c67a9d1f7",
+    "facility_global_annual.csv": "b4c4e79f84f9eb679198250081cdf8eb95b4842233d5aac00e2294a10b8a9320",
+    "facility_labels.csv": "672aca7db4f1334abf02532cc7c6861a03697d61fa33a23ef170d5df12b39968",
+    "facility_points.csv": "5269605571061dc584fd9c9c5c7784df845be408f3b1af471d847771ddf6b17c",
+    "world_boundaries.parquet": "14a5a2d3dfadacc40011814ed0fd6339ad987fff10df08c171a9a16c212826f1"
+  }
+}

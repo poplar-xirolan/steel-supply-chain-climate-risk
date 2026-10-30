@@ -1,0 +1,38 @@
+{
+  "GROUP_USA": [
+    "USA"
+  ],
+  "GROUP_CHN": [
+    "CHN",
+    "HKG",
+    "MAC",
+    "TWN"
+  ],
+  "GROUP_US_ALLIES": [
+    "AUS",
+    "BEL",
+    "CAN",
+    "DEU",
+    "ESP",
+    "FRA",
+    "GBR",
+    "ITA",
+    "JPN",
+    "KOR",
+    "NLD",
+    "NZL",
+    "PHL",
+    "POL",
+    "SWE",
+    "USA"
+  ],
+  "GROUP_CN_PARTNERS": [
+    "BLR",
+    "CHN",
+    "IRN",
+    "PRK",
+    "RUS",
+    "SYR",
+    "VEN"
+  ]
+}

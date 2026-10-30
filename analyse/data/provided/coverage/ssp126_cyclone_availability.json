@@ -1,0 +1,919 @@
+{
+  "policy": "ssp126_cyclone_2023_2060_declared_unavailable",
+  "version": "1.0.0",
+  "unavailable_components": [
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2023
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2024
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2025
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2026
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2027
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2028
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2029
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2030
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2031
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2032
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2033
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2034
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2035
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2036
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2037
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2038
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2039
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2040
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2041
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2042
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2043
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2044
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2045
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2046
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2047
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2048
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2049
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2050
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2051
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2052
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2053
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2054
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2055
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2056
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2057
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2058
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2059
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2060
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2023
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2024
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2025
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2026
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2027
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2028
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2029
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2030
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2031
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2032
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2033
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2034
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2035
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2036
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2037
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2038
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2039
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2040
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2041
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2042
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2043
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2044
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2045
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2046
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2047
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2048
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2049
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2050
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2051
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2052
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2053
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2054
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2055
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2056
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2057
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2058
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2059
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "iron-mine",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2060
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2023
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2024
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2025
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2026
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2027
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2028
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2029
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2030
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2031
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2032
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2033
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2034
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2035
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2036
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2037
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2038
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2039
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2040
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2041
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2042
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2043
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2044
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2045
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2046
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2047
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2048
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2049
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2050
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2051
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2052
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2053
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2054
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2055
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2056
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2057
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2058
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2059
+    },
+    {
+      "availability": "unavailable",
+      "hazard": "tropical-cyclone",
+      "industry": "steel-factory",
+      "reason": "authoritative source inventory begins in 2061",
+      "scenario": "ssp126",
+      "year": 2060
+    }
+  ],
+  "description": "Tropical cyclone SSP1-2.6 unavailable before 2061; never interpreted as zero cyclone risk."
+}

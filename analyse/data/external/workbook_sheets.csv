@@ -1,0 +1,22 @@
+workbook,required_sheet
+mfa/mfa_inputs.xlsx,<参考资料>铁SITC 1贸易代码
+mfa/mfa_inputs.xlsx,<参考资料>SITC 1全贸易代码
+mfa/mfa_inputs.xlsx,国家或地区代号
+mfa/mfa_inputs.xlsx,Comtrade国家编号对照表
+mfa/mfa_inputs.xlsx,国家最终产品生产比例
+mfa/mfa_inputs.xlsx,铁矿石产量、品位信息_USGS
+mfa/mfa_inputs.xlsx,铁矿石产量信息_Worldsteel
+mfa/mfa_inputs.xlsx,铁矿石存量、品位信息_USGS
+mfa/mfa_inputs.xlsx,粗铁产量信息_USGS
+mfa/mfa_inputs.xlsx,粗铁产量信息_Worldsteel
+mfa/mfa_inputs.xlsx,钢铁产量信息_USGS
+mfa/mfa_inputs.xlsx,钢铁产量信息_Worldsteel
+mfa/mfa_inputs.xlsx,热轧制产量信息_Worldsteel
+mfa/mfa_inputs.xlsx,表观钢铁消费量（钢铁当量）_Worldsteel
+mfa/mfa_inputs.xlsx,表观钢铁消费量（钢铁最终产品重量）_Worldsteel
+mfa/mfa_inputs.xlsx,真实钢铁消费量（钢铁最终产品重量）_Worldsteel
+mfa/mfa_inputs.xlsx,隐含钢铁进出口_Worldsteel
+mfa/mfa_inputs.xlsx,粗钢进出口量_Worldsteel
+mfa/mfa_inputs.xlsx,粗铁进出口量_Worldsteel
+mfa/mfa_inputs.xlsx,铁矿石进出口量_Worldsteel
+mfa/mfa_inputs.xlsx,废渣进出口量_Worldsteel

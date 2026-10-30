@@ -1,0 +1,6 @@
+# Direct dependencies of Figure 2, tested with Python 3.13.5 on Windows.
+numpy==2.5.0
+pandas==2.3.3
+scipy==1.18.0
+matplotlib==3.11.0
+SciencePlots==2.2.2

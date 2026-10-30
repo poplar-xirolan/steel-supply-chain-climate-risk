@@ -1,0 +1,313 @@
+comtrade_country_name,comtrade_code,iso_3166_alpha_2,iso_3166_alpha_3,is_in_mfa_code,need_discard,corrected_iso_alpha_3,is_corrected_in_mfa_code
+"Africa CAMEU region, nes",472,,_AC,No,Yes,,No
+Channel Islands,830,,_CI,No,Yes,,No
+Kosovo,412,,_KS,No,,SRB,Yes
+Midway Islands,488,,_MI,No,,UMI,Yes
+Peninsula Malaysia (...1963),459,,_PM,No,,MYS,Yes
+Ryukyu Isd,647,,_RI,No,,JPN,Yes
+Rhodesia Nyas (...1964),717,,_RN,No,Yes,,No
+Sabah (...1963),461,,_SH,No,,MYS,Yes
+Sarawak,457,,_SK,No,,MYS,Yes
+"Sikkim, Protectorate of India (...1974)",698,,_SM,No,,IND,Yes
+Tanganyika (...1964),835,,_TK,No,,TZA,Yes
+Wake Island,872,,_WI,No,,UMI,Yes
+"Areas, nes",899,,_X,No,Yes,,No
+Zanzibar and Pemba Isd (...1964),836,,_ZP,No,,TZA,Yes
+"Caribbean, nes",129,,A49,No,Yes,,No
+"North America and Central America, nes",637,,A59,No,Yes,,No
+"LAIA, nes",473,,A79,No,Yes,,No
+"Rest of America, nes",636,,A79,No,Yes,,No
+Aruba,533,AW,ABW,Yes,,,No
+Afghanistan,4,AF,AFG,Yes,,,No
+Angola,24,AO,AGO,Yes,,,No
+Anguilla,660,AI,AIA,Yes,,,No
+Åland Islands,248,AX,ALA,Yes,,,No
+Albania,8,AL,ALB,Yes,,,No
+Andorra,20,AD,AND,Yes,,,No
+Netherlands Antilles (...2010),530,AN,ANT,No,Yes,,No
+Netherlands Antilles and Aruba (...1985),532,AN,ANT,No,Yes,,No
+United Arab Emirates,784,AE,ARE,Yes,,,No
+Argentina,32,AR,ARG,Yes,,,No
+Armenia,51,AM,ARM,Yes,,,No
+American Samoa,16,AS,ASM,Yes,,,No
+Antarctica,10,AQ,ATA,Yes,,,No
+Br. Antarctic Terr.,80,BQ,ATB,No,,ATA,Yes
+Fr. South Antarctic Terr.,260,TF,ATF,Yes,,,No
+Antigua and Barbuda,28,AG,ATG,Yes,,,No
+Australia,36,AU,AUS,Yes,,,No
+Austria,40,AT,AUT,Yes,,,No
+Azerbaijan,31,AZ,AZE,Yes,,,No
+Burundi,108,BI,BDI,Yes,,,No
+Belgium,56,BE,BEL,Yes,,,No
+Belgium-Luxembourg (...1998),58,BE,BEL,Yes,,,No
+Benin,204,BJ,BEN,Yes,,,No
+Bonaire,535,BQ,BES,Yes,,,No
+Burkina Faso,854,BF,BFA,Yes,,,No
+Bangladesh,50,BD,BGD,Yes,,,No
+Bulgaria,100,BG,BGR,Yes,,,No
+Bahrain,48,BH,BHR,Yes,,,No
+Bahamas,44,BS,BHS,Yes,,,No
+Bosnia Herzegovina,70,BA,BIH,Yes,,,No
+Saint Barthélemy,652,BL,BLM,Yes,,,No
+Belarus,112,BY,BLR,Yes,,,No
+Belize,84,BZ,BLZ,Yes,,,No
+Bermuda,60,BM,BMU,Yes,,,No
+Bolivia (Plurinational State of),68,BO,BOL,Yes,,,No
+Brazil,76,BR,BRA,Yes,,,No
+Barbados,52,BB,BRB,Yes,,,No
+Brunei Darussalam,96,BN,BRN,Yes,,,No
+Bhutan,64,BT,BTN,Yes,,,No
+Bouvet Island,74,BV,BVT,Yes,,,No
+Botswana,72,BW,BWA,Yes,,,No
+Central African Rep.,140,CF,CAF,Yes,,,No
+Canada,124,CA,CAN,Yes,,,No
+Cocos Isds,166,CC,CCK,Yes,,,No
+Switzerland,757,CH,CHE,Yes,,,No
+Switzerland,756,CH,CHE,Yes,,,No
+Chile,152,CL,CHL,Yes,,,No
+China,156,CN,CHN,Yes,,,No
+Côte d'Ivoire,384,CI,CIV,Yes,,,No
+Cameroon,120,CM,CMR,Yes,,,No
+Dem. Rep. of the Congo,180,CD,COD,Yes,,,No
+Congo,178,CG,COG,Yes,,,No
+Cook Isds,184,CK,COK,Yes,,,No
+Colombia,170,CO,COL,Yes,,,No
+Comoros,174,KM,COM,Yes,,,No
+Cabo Verde,132,CV,CPV,Yes,,,No
+Costa Rica,188,CR,CRI,Yes,,,No
+Czechoslovakia (...1992),200,CS,CSK,No,Yes,,No
+Cuba,192,CU,CUB,Yes,,,No
+Curaçao,531,CW,CUW,Yes,,,No
+Christmas Isds,162,CX,CXR,Yes,,,No
+Cayman Isds,136,KY,CYM,Yes,,,No
+Cyprus,196,CY,CYP,Yes,,,No
+Czechia,203,CZ,CZE,Yes,,,No
+Dem. Rep. of Germany (...1990),278,DD,DDR,No,,DEU,Yes
+Fed. Rep. of Germany (...1990),280,DE,DEU,Yes,,,No
+Germany,276,DE,DEU,Yes,,,No
+Djibouti,262,DJ,DJI,Yes,,,No
+Dominica,212,DM,DMA,Yes,,,No
+Denmark,208,DK,DNK,Yes,,,No
+Dominican Rep.,214,DO,DOM,Yes,,,No
+Algeria,12,DZ,DZA,Yes,,,No
+"Other Europe, nes",568,,E19,No,Yes,,No
+"Eastern Europe, nes",221,,E29,No,Yes,,No
+Ecuador,218,EC,ECU,Yes,,,No
+Egypt,818,EG,EGY,Yes,,,No
+Eritrea,232,ER,ERI,Yes,,,No
+Western Sahara,732,EH,ESH,Yes,,,No
+Spain,724,ES,ESP,Yes,,,No
+Estonia,233,EE,EST,Yes,,,No
+Ethiopia,231,ET,ETH,Yes,,,No
+Ethiopia (...1992),230,ET,ETH,Yes,,,No
+European Union,97,EU,EUR,No,Yes,,No
+"Other Africa, nes",577,,F19,No,Yes,,No
+"Northern Africa, nes",290,,F49,No,Yes,,No
+"Western Asia, nes",879,,F97,No,Yes,,No
+Finland,246,FI,FIN,Yes,,,No
+Fiji,242,FJ,FJI,Yes,,,No
+Falkland Isds (Malvinas),238,FK,FLK,Yes,,,No
+France,251,FR,FRA,Yes,,,No
+Metropolitan France,250,FR,FRA,Yes,,,No
+Faroe Isds,234,FO,FRO,Yes,,,No
+FS Micronesia,583,FM,FSM,Yes,,,No
+Gabon,266,GA,GAB,Yes,,,No
+United Kingdom,826,GB,GBR,Yes,,,No
+Georgia,268,GE,GEO,Yes,,,No
+Guernsey,831,GG,GGY,Yes,,,No
+Ghana,288,GH,GHA,Yes,,,No
+Gibraltar,292,GI,GIB,Yes,,,No
+Guinea,324,GN,GIN,Yes,,,No
+Guadeloupe (Overseas France),312,GP,GLP,Yes,,,No
+Gambia,270,GM,GMB,Yes,,,No
+Guinea-Bissau,624,GW,GNB,Yes,,,No
+Equatorial Guinea,226,GQ,GNQ,Yes,,,No
+Greece,300,GR,GRC,Yes,,,No
+Grenada,308,GD,GRD,Yes,,,No
+Greenland,304,GL,GRL,Yes,,,No
+Guatemala,320,GT,GTM,Yes,,,No
+French Guiana (Overseas France),254,GF,GUF,Yes,,,No
+Guam,316,GU,GUM,Yes,,,No
+Guyana,328,GY,GUY,Yes,,,No
+"China, Hong Kong SAR",344,HK,HKG,Yes,,,No
+Heard Island and McDonald Islands,334,HM,HMD,Yes,,,No
+Honduras,340,HN,HND,Yes,,,No
+Croatia,191,HR,HRV,Yes,,,No
+Haiti,332,HT,HTI,Yes,,,No
+Hungary,348,HU,HUN,Yes,,,No
+Indonesia,360,ID,IDN,Yes,,,No
+Isle of Man,833,IM,IMN,Yes,,,No
+India,699,IN,IND,Yes,,,No
+India (...1974),356,IN,IND,Yes,,,No
+Br. Indian Ocean Terr.,86,IO,IOT,Yes,,,No
+Ireland,372,IE,IRL,Yes,,,No
+Iran,364,IR,IRN,Yes,,,No
+Iraq,368,IQ,IRQ,Yes,,,No
+Iceland,352,IS,ISL,Yes,,,No
+Israel,376,IL,ISR,Yes,,,No
+Italy,380,IT,ITA,Yes,,,No
+Jamaica,388,JM,JAM,Yes,,,No
+Jersey,832,JE,JEY,Yes,,,No
+Jordan,400,JO,JOR,Yes,,,No
+Japan,392,JP,JPN,Yes,,,No
+Kazakhstan,398,KZ,KAZ,Yes,,,No
+Kenya,404,KE,KEN,Yes,,,No
+Kyrgyzstan,417,KG,KGZ,Yes,,,No
+Cambodia,116,KH,KHM,Yes,,,No
+Kiribati,296,KI,KIR,Yes,,,No
+Saint Kitts and Nevis,659,KN,KNA,Yes,,,No
+"Saint Kitts, Nevis and Anguilla (...1980)",658,KN,KNA,Yes,,,No
+Rep. of Korea,410,KR,KOR,Yes,,,No
+Kuwait,414,KW,KWT,Yes,,,No
+Lao People's Dem. Rep.,418,LA,LAO,Yes,,,No
+Lebanon,422,LB,LBN,Yes,,,No
+Liberia,430,LR,LBR,Yes,,,No
+Libya,434,LY,LBY,Yes,,,No
+Saint Lucia,662,LC,LCA,Yes,,,No
+Liechtenstein,438,LI,LIE,Yes,,,No
+Sri Lanka,144,LK,LKA,Yes,,,No
+Lesotho,426,LS,LSO,Yes,,,No
+Lithuania,440,LT,LTU,Yes,,,No
+Luxembourg,442,LU,LUX,Yes,,,No
+Latvia,428,LV,LVA,Yes,,,No
+"China, Macao SAR",446,MO,MAC,Yes,,,No
+Saint Martin (French part),663,MF,MAF,Yes,,,No
+Morocco,504,MA,MAR,Yes,,,No
+"Europe EU, nes",492,MC,MCO,Yes,,,No
+Rep. of Moldova,498,MD,MDA,Yes,,,No
+Madagascar,450,MG,MDG,Yes,,,No
+Maldives,462,MV,MDV,Yes,,,No
+Mexico,484,MX,MEX,Yes,,,No
+Marshall Isds,584,MH,MHL,Yes,,,No
+North Macedonia,807,MK,MKD,Yes,,,No
+Mali,466,ML,MLI,Yes,,,No
+Malta,470,MT,MLT,Yes,,,No
+Myanmar,104,MM,MMR,Yes,,,No
+Montenegro,499,ME,MNE,Yes,,,No
+Mongolia,496,MN,MNG,Yes,,,No
+N. Mariana Isds,580,MP,MNP,Yes,,,No
+Mozambique,508,MZ,MOZ,Yes,,,No
+Mauritania,478,MR,MRT,Yes,,,No
+Montserrat,500,MS,MSR,Yes,,,No
+Martinique (Overseas France),474,MQ,MTQ,Yes,,,No
+Mauritius,480,MU,MUS,Yes,,,No
+Malawi,454,MW,MWI,Yes,,,No
+Malaysia,458,MY,MYS,Yes,,,No
+Mayotte (Overseas France),175,YT,MYT,Yes,,,No
+Namibia,516,,NAM,Yes,,,No
+New Caledonia,540,NC,NCL,Yes,,,No
+Niger,562,NE,NER,Yes,,,No
+Norfolk Isds,574,NF,NFK,Yes,,,No
+Nigeria,566,NG,NGA,Yes,,,No
+Nicaragua,558,NI,NIC,Yes,,,No
+Niue,570,NU,NIU,Yes,,,No
+Netherlands,528,NL,NLD,Yes,,,No
+Norway,579,NO,NOR,Yes,,,No
+"Norway, excluding Svalbard and Jan Mayen",578,NO,NOR,Yes,,,No
+Nepal,524,NP,NPL,Yes,,,No
+Nauru,520,NR,NRU,Yes,,,No
+Neutral Zone,536,NT,NTZ,No,Yes,,No
+New Zealand,554,NZ,NZL,Yes,,,No
+"Oceania, nes",527,,O19,No,Yes,,No
+Oman,512,OM,OMN,Yes,,,No
+East and West Pakistan (...1971),588,PK,PAK,Yes,,,No
+Pakistan,586,PK,PAK,Yes,,,No
+Panama,591,PA,PAN,Yes,,,No
+"Panama, excl.Canal Zone (...1977)",590,PA,PAN,Yes,,,No
+Pacific Isds (...1991),582,PC,PCI,No,Yes,,No
+Pitcairn,612,PN,PCN,Yes,,,No
+Panama-Canal-Zone (...1977),592,PZ,PCZ,No,,PAN,Yes
+Peru,604,PE,PER,Yes,,,No
+Philippines,608,PH,PHL,Yes,,,No
+Palau,585,PW,PLW,Yes,,,No
+Papua New Guinea,598,PG,PNG,Yes,,,No
+Poland,616,PL,POL,Yes,,,No
+Puerto Rico,630,PR,PRI,Yes,,,No
+Dem. People's Rep. of Korea,408,KP,PRK,Yes,,,No
+Portugal,620,PT,PRT,Yes,,,No
+Paraguay,600,PY,PRY,Yes,,,No
+State of Palestine,275,PS,PSE,Yes,,,No
+US Misc. Pacific Isds,849,PU,PUS,No,,UMI,Yes
+French Polynesia,258,PF,PYF,Yes,,,No
+Qatar,634,QA,QAT,Yes,,,No
+"Europe EFTA, nes",697,,R20,No,Yes,,No
+ASEAN,975,R4,R4,No,Yes,,No
+"CACM, nes",471,,R91,No,Yes,,No
+Réunion (Overseas France),638,RE,REU,Yes,,,No
+Romania,642,RO,ROU,Yes,,,No
+Russian Federation,643,RU,RUS,Yes,,,No
+Rwanda,646,RW,RWA,Yes,,,No
+"Other Asia, nes",490,,S19,No,Yes,,No
+Saudi Arabia,682,SA,SAU,Yes,,,No
+Serbia and Montenegro (...2005),891,CS,SCG,No,,SRB,Yes
+Sudan,729,SD,SDN,Yes,,,No
+Sudan (...2011),736,SD,SDN,Yes,,,No
+Senegal,686,SN,SEN,Yes,,,No
+Singapore,702,SG,SGP,Yes,,,No
+South Georgia and the South Sandwich Islands,239,GS,SGS,Yes,,,No
+Saint Helena,654,SH,SHN,Yes,,,No
+Svalbard and Jan Mayen Islands,744,SJ,SJM,Yes,,,No
+Solomon Isds,90,SB,SLB,Yes,,,No
+Sierra Leone,694,SL,SLE,Yes,,,No
+El Salvador,222,SV,SLV,Yes,,,No
+San Marino,674,SM,SMR,Yes,,,No
+Somalia,706,SO,SOM,Yes,,,No
+Saint Pierre and Miquelon,666,PM,SPM,Yes,,,No
+Serbia,688,RS,SRB,Yes,,,No
+South Sudan,728,SS,SSD,Yes,,,No
+Sao Tome and Principe,678,ST,STP,Yes,,,No
+USSR (...1990),810,SU,SUN,No,,RUS,Yes
+Suriname,740,SR,SUR,Yes,,,No
+Slovakia,703,SK,SVK,Yes,,,No
+Slovenia,705,SI,SVN,Yes,,,No
+Sweden,752,SE,SWE,Yes,,,No
+Eswatini,748,SZ,SWZ,Yes,,,No
+Saint Maarten,534,SX,SXM,Yes,,,No
+Seychelles,690,SC,SYC,Yes,,,No
+Syria,760,SY,SYR,Yes,,,No
+Turks and Caicos Isds,796,TC,TCA,Yes,,,No
+Chad,148,TD,TCD,Yes,,,No
+Togo,768,TG,TGO,Yes,,,No
+Thailand,764,TH,THA,Yes,,,No
+Tajikistan,762,TJ,TJK,Yes,,,No
+Tokelau,772,TK,TKL,Yes,,,No
+Turkmenistan,795,TM,TKM,Yes,,,No
+Timor-Leste,626,TL,TLS,Yes,,,No
+Tonga,776,TO,TON,Yes,,,No
+Trinidad and Tobago,780,TT,TTO,Yes,,,No
+Tunisia,788,TN,TUN,Yes,,,No
+Türkiye,792,TR,TUR,Yes,,,No
+Tuvalu,798,TV,TUV,Yes,,,No
+"Taiwan, Province of China",158,TW,TWN,Yes,,,No
+United Rep. of Tanzania,834,TZ,TZA,Yes,,,No
+Uganda,800,UG,UGA,Yes,,,No
+Ukraine,804,UA,UKR,Yes,,,No
+United States Minor Outlying Islands,581,UM,UMI,Yes,,,No
+Uruguay,858,UY,URY,Yes,,,No
+USA,842,US,USA,Yes,,,No
+USA and Puerto Rico (...1980),841,US,USA,Yes,,,No
+United States of America,840,US,USA,Yes,,,No
+Uzbekistan,860,UZ,UZB,Yes,,,No
+Holy See (Vatican City State),336,VA,VAT,Yes,,,No
+Saint Vincent and the Grenadines,670,VC,VCT,Yes,,,No
+Dem. Rep. of Vietnam (...1974),866,VD,VDR,No,,VNM,Yes
+Venezuela,862,VE,VEN,Yes,,,No
+Br. Virgin Isds,92,VG,VGB,Yes,,,No
+US Virgin Isds (...1980),850,VI,VIR,Yes,,,No
+Rep. of Vietnam (...1974),868,VN,VNM,Yes,,,No
+Viet Nam,704,VN,VNM,Yes,,,No
+Vanuatu,548,VU,VUT,Yes,,,No
+World,0,,W00,No,Yes,,No
+Wallis and Futuna Isds,876,WF,WLF,Yes,,,No
+Samoa,882,WS,WSM,Yes,,,No
+Bunkers,837,,X1,No,Yes,,No
+Free Zones,838,,X2,No,Yes,,No
+Special Categories,839,,XX,No,Yes,,No
+Arab Rep. of Yemen (...1990),886,YE,YEM,Yes,,,No
+Yemen,887,YE,YEM,Yes,,,No
+Dem. Yemen (...1990),720,YD,YMD,No,,YEM,Yes
+Yugoslavia (...1991),890,YU,YUG,No,Yes,,No
+Southern African Customs Union (...1999),711,,ZA1,No,Yes,,No
+South Africa,710,ZA,ZAF,Yes,,,No
+Zambia,894,ZM,ZMB,Yes,,,No
+Zimbabwe,716,ZW,ZWE,Yes,,,No

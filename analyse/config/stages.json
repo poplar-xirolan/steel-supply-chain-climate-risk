@@ -1,0 +1,441 @@
+[
+  {
+    "id": "trade-clean",
+    "script": "01_mfa/01_clean_trade.py",
+    "inputs": [
+      "input/mfa/trade_raw"
+    ],
+    "args": [],
+    "outputs": [
+      "work/mfa_trade/1_corrected",
+      "work/mfa_trade/1_ext_uncorrected"
+    ]
+  },
+  {
+    "id": "trade-map",
+    "script": "01_mfa/02_map_countries.py",
+    "inputs": [
+      "input/mfa/mfa_inputs.xlsx",
+      "work/mfa_trade/1_corrected"
+    ],
+    "args": [],
+    "outputs": [
+      "work/mfa_trade/2_country_mapped"
+    ]
+  },
+  {
+    "id": "trade-equivalent",
+    "script": "01_mfa/03_convert_trade_equivalent.py",
+    "inputs": [
+      "input/mfa/mfa_inputs.xlsx",
+      "work/mfa_trade/2_country_mapped"
+    ],
+    "args": [],
+    "outputs": [
+      "work/mfa_trade/3_1_price_table",
+      "work/mfa_trade/3_2_weight_filled_trade"
+    ]
+  },
+  {
+    "id": "trade-grade",
+    "script": "01_mfa/04_adjust_iron_ore_grade.py",
+    "inputs": [
+      "input/mfa/mfa_inputs.xlsx",
+      "work/mfa_trade/3_2_weight_filled_trade"
+    ],
+    "args": [],
+    "outputs": [
+      "work/mfa_trade/4_iron_ore_grade_adjusted"
+    ]
+  },
+  {
+    "id": "mfa",
+    "script": "01_mfa/05_build_mfa.py",
+    "inputs": [
+      "input/mfa/mfa_inputs.xlsx",
+      "work/mfa_trade/4_iron_ore_grade_adjusted/trade_data.parquet"
+    ],
+    "args": [],
+    "outputs": [
+      "results/mfa"
+    ]
+  },
+  {
+    "id": "spatial-mines",
+    "script": "02_spatialization/01_scale_iron_mines.py",
+    "inputs": [
+      "input/mfa/mfa_inputs.xlsx",
+      "input/spatialization/world_administration_esri.gpkg",
+      "input/spatialization/spglobal_iron_mine/basic_info.parquet",
+      "input/spatialization/spglobal_iron_mine/production.parquet",
+      "results/mfa/2023.parquet"
+    ],
+    "args": [],
+    "outputs": [
+      "results/facilities/mine_scaled.parquet"
+    ]
+  },
+  {
+    "id": "spatial-iron",
+    "script": "02_spatialization/02_scale_iron_plants.py",
+    "inputs": [
+      "input/mfa/mfa_inputs.xlsx",
+      "input/spatialization/world_administration_esri.gpkg",
+      "input/spatialization/global_energy_monitor_iron_steel/basic_info.parquet",
+      "input/spatialization/global_energy_monitor_iron_steel/capacity.parquet",
+      "results/mfa/2023.parquet"
+    ],
+    "args": [],
+    "outputs": [
+      "results/facilities/iron_factory_scaled.parquet"
+    ]
+  },
+  {
+    "id": "spatial-steel",
+    "script": "02_spatialization/03_scale_steel_plants.py",
+    "inputs": [
+      "input/mfa/mfa_inputs.xlsx",
+      "input/spatialization/world_administration_esri.gpkg",
+      "input/spatialization/global_energy_monitor_iron_steel/basic_info.parquet",
+      "input/spatialization/global_energy_monitor_iron_steel/capacity.parquet",
+      "results/mfa/2023.parquet"
+    ],
+    "args": [],
+    "outputs": [
+      "results/facilities/steel_factory_scaled.parquet"
+    ]
+  },
+  {
+    "id": "prepare-facilities",
+    "script": "00_prepare_inputs/02_prepare_facility_locations.py",
+    "inputs": ["input/spatialization/global_energy_monitor_iron_steel/basic_info.parquet", "input/spatialization/spglobal_iron_mine/basic_info.parquet"],
+    "outputs": ["work/prepared_climate_facilities"]
+  },
+  {
+    "id": "extract-tasmax",
+    "script": "03_climate_extraction/02_extract_tasmax.py",
+    "inputs": [
+      "input/isimip/tasmax",
+      "input/climate_facilities/global_energy_monitor_iron_steel_basic_info.parquet",
+      "input/climate_facilities/spglobal_iron_mine_basic_info.parquet",
+      "input/climate_facilities/*.parquet"
+    ],
+    "args": [],
+    "outputs": [
+      "work/climate_at_facilities/tasmax"
+    ]
+  },
+  {
+    "id": "extract-tas",
+    "script": "03_climate_extraction/03_extract_tas.py",
+    "inputs": [
+      "input/isimip/tas",
+      "input/climate_facilities/global_energy_monitor_iron_steel_basic_info.parquet",
+      "input/climate_facilities/spglobal_iron_mine_basic_info.parquet",
+      "input/climate_facilities/*.parquet"
+    ],
+    "args": [],
+    "outputs": [
+      "work/climate_at_facilities/tas"
+    ]
+  },
+  {
+    "id": "extract-hurs",
+    "script": "03_climate_extraction/04_extract_hurs.py",
+    "inputs": [
+      "input/isimip/hurs",
+      "input/climate_facilities/global_energy_monitor_iron_steel_basic_info.parquet",
+      "input/climate_facilities/spglobal_iron_mine_basic_info.parquet",
+      "input/climate_facilities/*.parquet"
+    ],
+    "args": [],
+    "outputs": [
+      "work/climate_at_facilities/hurs"
+    ]
+  },
+  {
+    "id": "extract-wind",
+    "script": "03_climate_extraction/05_extract_wind.py",
+    "inputs": [
+      "input/isimip/wind",
+      "input/climate_facilities/global_energy_monitor_iron_steel_basic_info.parquet",
+      "input/climate_facilities/spglobal_iron_mine_basic_info.parquet",
+      "input/climate_facilities/*.parquet"
+    ],
+    "args": [],
+    "outputs": [
+      "work/climate_at_facilities/wind"
+    ]
+  },
+  {
+    "id": "extract-wildfire",
+    "script": "03_climate_extraction/06_extract_wildfire.py",
+    "inputs": [
+      "input/isimip/wildfire",
+      "input/climate_facilities/global_energy_monitor_iron_steel_basic_info.parquet",
+      "input/climate_facilities/spglobal_iron_mine_basic_info.parquet",
+      "input/climate_facilities/*.parquet"
+    ],
+    "args": [],
+    "outputs": [
+      "work/climate_at_facilities/wildfire"
+    ]
+  },
+  {
+    "id": "heatwave-loss",
+    "script": "04_facility_hazards/07_build_heatwave_loss.py",
+    "inputs": [
+      "work/climate_at_facilities/tas",
+      "work/climate_at_facilities/tasmax",
+      "work/climate_at_facilities/hurs"
+    ],
+    "args": [],
+    "outputs": [
+      "work/hazard_facility_loss/heatwave_gross_loss"
+    ]
+  },
+  {
+    "id": "cyclone-loss",
+    "script": "04_facility_hazards/08_build_cyclone_loss.py",
+    "inputs": [
+      "work/climate_at_facilities/wind"
+    ],
+    "args": [],
+    "outputs": [
+      "work/hazard_facility_loss/tropical_cyclone_loss"
+    ]
+  },
+  {
+    "id": "wildfire-loss",
+    "script": "04_facility_hazards/09_build_wildfire_loss.py",
+    "inputs": [
+      "work/climate_at_facilities/wildfire",
+      "input/climate_facilities/global_energy_monitor_iron_steel_basic_info.parquet",
+      "input/climate_facilities/spglobal_iron_mine_basic_info.parquet"
+    ],
+    "args": [],
+    "outputs": [
+      "work/hazard_facility_loss/wildfire_loss"
+    ]
+  },
+  {
+    "id": "hazard-aggregate",
+    "script": "05_country_constraints/10_aggregate_country_loss.py",
+    "inputs": [
+      "work/hazard_facility_loss/heatwave_gross_loss",
+      "work/hazard_facility_loss/tropical_cyclone_loss",
+      "work/hazard_facility_loss/wildfire_loss",
+      "results/facilities/mine_scaled.parquet",
+      "results/facilities/iron_factory_scaled.parquet",
+      "results/facilities/steel_factory_scaled.parquet"
+    ],
+    "args": [],
+    "outputs": [
+      "results/hazard_facility_loss/*_heatwave_*.parquet",
+      "results/hazard_facility_loss/*_tropical-cyclone_*.parquet",
+      "results/hazard_facility_loss/*_wildfire_*.parquet",
+      "results/hazard_country_level_loss/*_heatwave_*.parquet",
+      "results/hazard_country_level_loss/*_tropical-cyclone_*.parquet",
+      "results/hazard_country_level_loss/*_wildfire_*.parquet"
+    ]
+  },
+  {
+    "id": "hazard-coverage",
+    "script": "05_country_constraints/10a_build_hazard_coverage_policy.py",
+    "inputs": [
+      "input/isimip/wind",
+      "work/climate_at_facilities/wind",
+      "work/hazard_facility_loss/tropical_cyclone_loss"
+    ],
+    "args": [],
+    "outputs": [
+      "results/hazard_coverage/ssp126_cyclone_source_inventory.csv",
+      "results/hazard_coverage/ssp126_cyclone_coverage_policy.json"
+    ]
+  },
+  {
+    "id": "hazard-combine",
+    "script": "05_country_constraints/10b_build_multi_hazard_max_loss.py",
+    "inputs": [
+      "results/facilities/mine_scaled.parquet",
+      "results/facilities/iron_factory_scaled.parquet",
+      "results/facilities/steel_factory_scaled.parquet",
+      "results/hazard_facility_loss/*_heatwave_*.parquet",
+      "results/hazard_facility_loss/*_tropical-cyclone_*.parquet",
+      "results/hazard_facility_loss/*_wildfire_*.parquet",
+      "results/hazard_coverage/ssp126_cyclone_coverage_policy.json",
+      "results/hazard_coverage/ssp126_cyclone_source_inventory.csv",
+      "work/hazard_facility_loss/wildfire_loss/wildfire_coverage_receipt.json"
+    ],
+    "args": [],
+    "outputs": [
+      "results/hazard_facility_loss/*_multi-hazard-max_*.parquet",
+      "results/hazard_country_level_loss/*_multi-hazard-max_*.parquet",
+      "results/hazard_coverage/multi_hazard_max_loss_receipt.json"
+    ]
+  },
+  {
+    "id": "abm",
+    "script": "@abm",
+    "inputs": [
+      "results/mfa/2023.parquet",
+      "results/hazard_country_level_loss/*_multi-hazard-max_*.parquet"
+    ],
+    "args": [],
+    "outputs": [
+      "results/simulation/reproduction/scenario_catalog.csv",
+      "results/simulation/scenarios"
+    ],
+    "resumable_attempts": true
+  },
+  {
+    "id": "dscci",
+    "script": "07_dscci/01_build_seven_stage_e2eci.py",
+    "inputs": [
+      "results/mfa/2023.parquet"
+    ],
+    "args": [],
+    "outputs": [
+      "results/postprocessing/e2eci"
+    ]
+  },
+  {
+    "id": "metrics",
+    "script": "08_result_summaries/02_build_formal_abm_metrics.py",
+    "inputs": [
+      "results/simulation/scenarios",
+      "results/simulation/reproduction/scenario_catalog.csv",
+      "results/postprocessing/e2eci/seven_stage_e2eci_country_scores.csv"
+    ],
+    "args": [],
+    "outputs": [
+      "results/postprocessing/formal_abm_metrics/scenario_catalog.csv",
+      "results/postprocessing/formal_abm_metrics/full_annual_climate_inventory.csv",
+      "results/postprocessing/formal_abm_metrics/ssp370_inventory_step_series.csv",
+      "results/postprocessing/formal_abm_metrics/capacity_and_named_trade_endpoints.csv",
+      "results/postprocessing/formal_abm_metrics/random_trade_endpoints.csv",
+      "results/postprocessing/formal_abm_metrics/random_trade_summary.csv",
+      "results/postprocessing/formal_abm_metrics/country_stage_annual.csv",
+      "results/postprocessing/formal_abm_metrics/country_stage_fulfilment.csv",
+      "results/postprocessing/formal_abm_metrics/e2eci_with_formal_satisfaction.csv",
+      "results/postprocessing/formal_abm_metrics/vip_stage_fulfilment.csv",
+      "results/postprocessing/formal_abm_metrics/selected_metrics.json"
+    ]
+  },
+  {
+    "id": "metrics-extended",
+    "script": "08_result_summaries/03_build_conserving_abm_metrics.py",
+    "inputs": [
+      "results/postprocessing/formal_abm_metrics/selected_metrics.json",
+      "results/postprocessing/formal_abm_metrics/scenario_catalog.csv",
+      "results/simulation/scenarios"
+    ],
+    "args": [],
+    "outputs": [
+      "results/postprocessing/formal_abm_metrics/capacity_1_0_full_annual.csv",
+      "results/postprocessing/formal_abm_metrics/named_trade_country_final_demand.csv",
+      "results/postprocessing/formal_abm_metrics/extended_selected_metrics.json"
+    ]
+  },
+  {
+    "id": "compact-metrics",
+    "script": "08_result_summaries/07_build_compact_figure_metrics.py",
+    "inputs": [
+      "results/postprocessing/formal_abm_metrics/scenario_catalog.csv",
+      "results/simulation/reproduction/scenario_catalog.csv",
+      "results/simulation/scenarios",
+      "results/mfa/2023.parquet"
+    ],
+    "args": [],
+    "outputs": [
+      "results/postprocessing/figure_metrics"
+    ]
+  },
+  {
+    "id": "facility-coverage",
+    "script": "08_result_summaries/05_build_facility_coverage.py",
+    "inputs": [
+      "results/mfa/2023.parquet",
+      "input/spatialization/global_energy_monitor_iron_steel/capacity.parquet",
+      "input/spatialization/global_energy_monitor_iron_steel/basic_info.parquet",
+      "input/spatialization/spglobal_iron_mine/production.parquet",
+      "input/spatialization/spglobal_iron_mine/basic_info.parquet",
+      "results/facilities/mine_scaled.parquet",
+      "results/facilities/iron_factory_scaled.parquet",
+      "results/facilities/steel_factory_scaled.parquet"
+    ],
+    "args": [],
+    "outputs": [
+      "results/postprocessing/facility_coverage"
+    ]
+  },
+  {
+    "id": "fig3-data",
+    "script": "08_result_summaries/06_build_facility_risk_metrics.py",
+    "inputs": [
+      "results/hazard_facility_loss/*_heatwave_*.parquet",
+      "results/hazard_facility_loss/*_tropical-cyclone_*.parquet",
+      "results/hazard_facility_loss/*_wildfire_*.parquet",
+      "results/hazard_country_level_loss/*_heatwave_*.parquet",
+      "results/hazard_country_level_loss/*_tropical-cyclone_*.parquet",
+      "results/hazard_country_level_loss/*_wildfire_*.parquet",
+      "results/facilities/mine_scaled.parquet",
+      "results/facilities/iron_factory_scaled.parquet",
+      "results/facilities/steel_factory_scaled.parquet"
+    ],
+    "args": [],
+    "outputs": [
+      "results/postprocessing/facility_risk"
+    ]
+  },
+  {
+    "id": "statistics",
+    "script": "09_statistics/04_build_fig6_statistics.py",
+    "inputs": [
+      "results/postprocessing/formal_abm_metrics/e2eci_with_formal_satisfaction.csv",
+      "results/postprocessing/e2eci/seven_stage_e2eci_country_scores.csv"
+    ],
+    "args": [],
+    "outputs": [
+      "results/postprocessing/fig6_statistics"
+    ]
+  },
+  {
+    "id": "export-graphing",
+    "script": "10_export_graphing_data/export_all.py",
+    "inputs": [
+      "results/postprocessing/facility_risk/facility_relative_impacts.csv",
+      "results/hazard_facility_loss/*_heatwave_*.parquet",
+      "results/hazard_facility_loss/*_tropical-cyclone_*.parquet",
+      "results/hazard_facility_loss/*_wildfire_*.parquet",
+      "results/mfa/2023.parquet",
+      "results/hazard_country_level_loss/*_heatwave_*.parquet",
+      "results/hazard_country_level_loss/*_tropical-cyclone_*.parquet",
+      "results/hazard_country_level_loss/*_wildfire_*.parquet",
+      "results/postprocessing/formal_abm_metrics/scenario_catalog.csv",
+      "results/postprocessing/formal_abm_metrics/full_annual_climate_inventory.csv",
+      "results/postprocessing/formal_abm_metrics/ssp370_inventory_step_series.csv",
+      "results/postprocessing/formal_abm_metrics/capacity_and_named_trade_endpoints.csv",
+      "results/postprocessing/formal_abm_metrics/random_trade_endpoints.csv",
+      "results/postprocessing/formal_abm_metrics/random_trade_summary.csv",
+      "results/postprocessing/formal_abm_metrics/country_stage_annual.csv",
+      "results/postprocessing/formal_abm_metrics/country_stage_fulfilment.csv",
+      "results/postprocessing/formal_abm_metrics/e2eci_with_formal_satisfaction.csv",
+      "results/postprocessing/formal_abm_metrics/vip_stage_fulfilment.csv",
+      "results/postprocessing/formal_abm_metrics/selected_metrics.json",
+      "results/postprocessing/formal_abm_metrics/capacity_1_0_full_annual.csv",
+      "results/postprocessing/formal_abm_metrics/named_trade_country_final_demand.csv",
+      "results/postprocessing/formal_abm_metrics/extended_selected_metrics.json",
+      "results/postprocessing/e2eci",
+      "results/postprocessing/figure_metrics",
+      "input/spatialization/world_administration_esri.gpkg",
+      "input/mfa/mfa_inputs.xlsx",
+      "results/facilities/mine_scaled.parquet",
+      "results/facilities/iron_factory_scaled.parquet",
+      "results/facilities/steel_factory_scaled.parquet"
+    ],
+    "outputs": [
+      "results/graphing_inputs"
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "n": 168,
+  "resampling": {
+    "seed": 20260913,
+    "bootstrap_samples": 20000,
+    "permutations": 99999,
+    "endpoint_tolerance_percentage_points": 1e-08,
+    "unit": "country; deterministic ISO order; Spearman seed offset +1"
+  },
+  "results": {
+    "pearson": {
+      "estimate": 0.6586660208369665,
+      "p_value": 2.9050165938294836e-22,
+      "ci_low": 0.5507190407774054,
+      "ci_high": 0.7533480136863431
+    },
+    "spearman": {
+      "estimate": 0.5919272296116945,
+      "p_value": 1e-05,
+      "extreme_count": 0,
+      "permutations": 99999,
+      "ci_low": 0.4531558813322894,
+      "ci_high": 0.7109138905045563
+    }
+  },
+  "interpretation_boundary": "Conditional cross-country association, not causality or model/network uncertainty."
+}

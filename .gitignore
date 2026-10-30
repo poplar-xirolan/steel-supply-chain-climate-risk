@@ -1,0 +1,17 @@
+# Local environments and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+
+# Rebuilt intermediates/results and self-obtained source inputs
+/analyse/work/
+/analyse/result/
+/analyse/data/external/mfa/
+/analyse/data/external/spatialization/
+/analyse/data/external/isimip/
