@@ -1,7 +1,8 @@
-# Figure 1 - methodological framework
+# Figure 1 - localized climate risks and supply-chain propagation
 
-`Figure_1.drawio` is the editable source for the accepted methodological
-schematic. The matching PNG, PDF and SVG exports are preserved in `reference/`.
+`Figure_1.drawio` is the editable source for the final mechanism schematic
+accepted on 3 November 2026, including the corrected supply-shortfall icon.
+The matching PNG, PDF and SVG exports are preserved in `reference/`.
 These files are provided unchanged; this folder contains no export script,
 bundled application, Python environment or historical revision scripts.
 
@@ -13,24 +14,30 @@ was also used for the local export check. Ensure that **Arial** is available.
 Other application versions or font substitutions may produce rendering differences.
 
 No Python packages, model runs or external data files are needed to open and
-export this source. Its graphical content is embedded. Most elements are
-editable vector shapes; the country-level trade inset is an embedded PNG, so
-the complete figure should not be described as entirely vector artwork.
+export this source. Its graphical content is embedded as editable vector
+shapes; the source and matching SVG/PDF contain no raster images. The country
+and facility maps are part of the assembled drawing, not linked image files.
 
 ## Open and export manually
 
 1. Open `Figure_1.drawio` in draw.io Desktop.
-2. Select the first page, **Fig1 · inputs, simulation and security analyses**.
-   The source retains a blank second page; do not export all pages.
+2. Select the single page, **Fig. 1 | Facility exposure, upstream constraints
+   and final supply**. There is no blank second page.
 3. Use **File > Export as** and select PNG, SVG or PDF. Export the complete
    current page, not a selection. Use a light appearance, a white background,
-   no grid and a border width of **20**.
-4. For PNG, use **100%** zoom. The reference image is **2308 x 2154 pixels**.
+   no grid and a border width of **8**.
+4. For PNG, use **128%** zoom. The reference image is **2210 x 2567 pixels**.
    For SVG, embed images and include a copy of the diagram; the reference does
    not embed fonts. For PDF, select **Current Page** and **Crop** to the diagram,
    rather than exporting the full paper page or all pages.
 5. Save new exports in `output/`, which is initially empty, or another folder
    of your choice. Keep `reference/` unchanged for comparison.
+
+The reference PDF is one page, uniformly scaled after cropped export to a width
+of **180 mm**, without changing its artwork or proportions. A direct cropped
+PDF export may therefore have a different physical page size. Set its placement
+width to 180 mm when using that publication size; a PDF byte-for-byte match is
+not expected because export metadata can differ.
 
 Export option names can vary with the application version. Official guidance:
 [PNG](https://www.drawio.com/docs/manual/export/export-to-png/),
@@ -44,6 +51,12 @@ recompute the underlying material flows, facility distribution or climate-risk
 results shown in its insets. Consequently, this folder has no separate
 `graphing/data/Figure_1/` input directory and does not supply a raw facility
 coordinate database. Numerical reconstruction belongs to the analysis workflow.
+
+The left-hand pathway illustrates how localized disruption can propagate to
+final-product shortages. Country-stage constraints feed the upstream stages
+of the 2023 material-flow network, followed by weekly simulation and the
+analysis of national steel security. Facility-level loss profiles are schematic;
+the figure is not an additional model experiment.
 
 If revising the illustration, retain the original reference exports and check
 the new exports for changed text, missing elements, clipping and font changes.
