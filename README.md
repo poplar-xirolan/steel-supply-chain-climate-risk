@@ -1,5 +1,7 @@
 # Steel supply-chain climate-risk reproduction package
 
+This repository is for the reproduction of figures and analysis results for paper "Facility-level climate shocks propagate unevenly across the global steel supply chain". Please cite properly if any part of our code and data is used.
+
 This package separates **scientific analysis** from **figure production**.
 The analysis is a continuous workflow from initial source inputs through MFA,
 facility-level climate impacts, national constraints, weekly dynamic simulation,
