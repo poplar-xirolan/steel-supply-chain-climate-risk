@@ -45,8 +45,11 @@ old summary-table bytes.
 Same endpoint mass/day/loss fields and fixed SSP3-7.0/inventory/capacity settings
 as above, without random fields. The four trade values are free-trade,
 us-cn-decoupling, bloc-confrontation and global-decoupling. Both endpoint years
-are retained. Each scenario uses its own 2023 daily baseline; global decoupling
-does not share the other scenarios' denominator.
+are retained. The original loss_percent field uses each scenario's own 2023
+daily baseline, including for global decoupling. Panel c does not use that
+field for bar heights: it compares the four 2100 annual deliveries against
+the same 2023 free-trade annual delivery (365 days in both years). This
+display-only calculation preserves the original endpoint records.
 
 ## country_trade_endpoints.csv — 670 rows
 

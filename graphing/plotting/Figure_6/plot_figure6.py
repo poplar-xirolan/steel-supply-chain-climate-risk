@@ -165,6 +165,12 @@ def load_inputs(data_dir=DEFAULT_DATA):
         global_mass=global_endpoints[global_endpoints.year.eq(year)].set_index('trade').loc[TRADES,'annual_mass']
         if not np.allclose(global_mass,sums.loc[TRADES,str(year)],rtol=1e-10,atol=.001):
             raise ValueError('Global endpoints disagree with summed country masses')
+    free_trade_2023=global_endpoints.loc[
+        global_endpoints.year.eq(2023)&global_endpoints.trade.eq('free-trade'),'annual_mass'].item()
+    # Panel c compares like-for-like annual deliveries (365 days for both years).
+    # Keep the source loss_percent and the other panels' normalizations intact.
+    named['free_trade_2023_annual_mass']=free_trade_2023
+    named['loss_percent_vs_free_trade_2023']=100*(1-named.annual_mass/free_trade_2023)
     final_profiles=scores[scores.Country.isin(COUNTRIES)][['Country','satisfaction_pct']].rename(columns={'satisfaction_pct':'Fulfilment'})
     final_profiles['Stage']='Final demand'
     comparison=prepare_comparison(countries,scores,final_profiles)
@@ -383,16 +389,16 @@ def draw_trade(fig, random, named):
     # visually belong to c rather than attach to b's plot/label block.
     ax2 = axes_mm(fig, 14, 14, 65, 22)
     panel_title(fig, "c", 14, 41, "Trade-restriction scenarios")
-    vals = named.loss_percent.to_numpy()
+    vals = named.loss_percent_vs_free_trade_2023.to_numpy()
     bars = ax2.bar(np.arange(4), vals, width=.48,
                    color=[BLUE, "#91A7B5", ORANGE, "#87543A"], zorder=3)
     for bar, value in zip(bars, vals):
         ax2.text(bar.get_x() + bar.get_width()/2, value + 1.6, f"{value:.1f}",
                  ha="center", va="bottom", fontsize=6.2, color=INK)
-    ax2.set(ylim=(0, 54), yticks=[0, 25, 50], xlim=(-.6, 3.6),
+    ax2.set(ylim=(0, 75), yticks=[0, 25, 50, 75], xlim=(-.6, 3.6),
             xticks=np.arange(4), ylabel="Global loss (%)")
     ax2.set_xticklabels(["Free\ntrade", "US–China\ndecoupling", "Group\nrestriction",
-                         "Global\ndecoupling*"], fontsize=5.8)
+                         "Global\ndecoupling"], fontsize=5.8)
     style_axis(ax2)
     ax2.tick_params(axis="x", length=0, pad=3)
     return ax, ax2
@@ -514,7 +520,7 @@ def draw_country_panels(fig, profiles, comparison, capacity):
     text_mm(fig, 94, 103.5, "Baseline capacity /\n2023 final demand", fontsize=5.3,
             color=MUTED, va="top", linespacing=1.3)
     text_mm(fig, 94, 9,
-            "Group restriction: US-aligned–China-partner confrontation.  *Scenario-specific 2023 baseline.",
+            "Group restriction: US-aligned–China-partner confrontation.",
             fontsize=5.2, color=MUTED, va="top", linespacing=1.4)
     return ax, ep
 

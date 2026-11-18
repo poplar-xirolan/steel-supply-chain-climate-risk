@@ -1,6 +1,7 @@
 # Figure 6 — domestic capability, production responses and trade restrictions
 
-This folder redraws the accepted five-panel v7 figure from six bundled numerical
+This folder redraws the five-panel figure, with the v7 layout and a common
+free-trade 2023 baseline in panel c, from six bundled numerical
 tables. It requires no original project package, legacy plotting module,
 simulation transactions, full MFA network, workbook, old cache or network access.
 It does not read reference images or precomputed statistical summaries.
@@ -45,7 +46,7 @@ scenario coverage, duplicates, ratios, capacities and baselines before plotting.
 Unknown missing values are rejected, not filled with zero. See the data README
 for the explicitly preserved sparse zero-delivery records in the original table.
 
-## Calculations retained from v7
+## Panel calculations
 
 - a: all 168 pairs; existing baseline seven-stage DSCCI is an input, not
   redefined using d's five display groups. The OLS line and 95% mean-fit band
@@ -58,9 +59,12 @@ for the explicitly preserved sparse zero-delivery records in the original table.
 - b: all 10 realizations per exclusion level are used to recalculate mean,
   sample SD and the two-sided 95% Student-t confidence interval of the mean.
   These are not interpolated model runs or country-bootstrap intervals.
-- c: the four global losses are checked against each scenario's own positive
-  2023 baseline and summed national endpoints. Global decoupling retains its
-  different baseline and asterisk; it is not renormalized to free trade.
+- c: after checking the source losses against their original scenario baselines
+  and reconciling global and national deliveries, all four displayed losses are
+  calculated as 100 × (1 − simulated 2100 deliveries / simulated 2023 free-trade
+  deliveries). The source loss_percent is unchanged. The plotted values and
+  common denominator are recorded in source_named_scenarios.csv as
+  loss_percent_vs_free_trade_2023 and free_trade_2023_annual_mass.
 - d: ratios use actual main-product output, not replenishment receipts or used
   throughput. P3 and P4 are summed in mass units before forming the combined
   steelmaking/casting ratio. Capacity components are also summed; the domestic
@@ -88,8 +92,9 @@ Figure_6_preview.png (240 dpi), Figure_6.pdf and Figure_6.svg. It also contains:
 - source_production_components_annual.csv and source_stage_fulfilment.csv;
 - source_baseline_capacity_components.csv and source_baseline_capacity.csv.
 
-Rerunning replaces these outputs, not inputs or reference assets. reference/
-contains unchanged accepted PNG/PDF/SVG files for comparison only. Preparation,
+Rerunning replaces these outputs, not inputs or reference assets. The historical
+PNG/PDF/SVG files in reference/ use the original scenario-specific baseline in
+panel c; use output/ for the corrected figure. Preparation,
 tests and temporary verification logs are outside the export package and are
 not needed by either script. This is plotting-level reproduction from derived
 results, not a climate-model or ABM rerun.
